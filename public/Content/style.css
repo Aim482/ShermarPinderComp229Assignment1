@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+
+
+   img {
+    max-width: 25%;
+    max-height:25%;
+  }
+
+  .text {
+    font-size: 10px;
+    padding-left: 20px;
+  }
+
+  .box{
+    max-width: 300px;
+    text-align: center;
+    margin:auto;
+  }
