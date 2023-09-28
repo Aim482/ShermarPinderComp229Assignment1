@@ -1,23 +1,33 @@
 .container {
     display: grid;
     align-items: center; 
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;;
+    column-gap: 10px;
+    max-width: 1000px;
    }
 
 
-   img {
-    max-width: 25%;
-    max-height:25%;
+   .img {
+    max-width: 350px;
+    max-height: 350px;
+    border: 20px solid black;
+    border-style: outset;
+    border-radius: 5px;
+  }/*change dimensions of image*/
+
+  .imgbox{
+    align-self: center;
+    max-width: 50px;
   }
 
+  
   .text {
-    font-size: 10px;
-    padding-left: 20px;
+    font-size: 15px;
+    padding-left: 2px;
   }
 
   .box{
     max-width: 300px;
-    text-align: center;
-    margin:auto;
+    text-align:center;
   }

@@ -4,28 +4,30 @@
     <!--<img src="img/logo.png" alt="logo">-->
 
 <main class="ontainer">
-<div class="jumbotron">
+<div class="jumbotron" >
+    
+    <h1 style=" text-align: center; margin: auto;">Welcome to <%= title %> Page</h1>
 
-    <h1>Welcome to <%= title %> Page</h1>
-
-    <link rel="stylesheet" type="text/css" href="../../public/Content/style.css" /> 
-
-    <h1>Here you can see some of my previous projects:</h1>
+    <link rel="stylesheet" type="text/css" href="Content/style.css" /> 
+    <!--updated body and composition while linking to css file for style-->
+    <p style=" text-align: center; margin: auto;">Here you can see some of my previous projects:</p>
+    <br>
 
     <div class="container">
-        <div class="image">
-            <img src="/public/img/bigbites.png">
-        </div>
+        
+           
+        <img src="img/bigbites.png" class="img">
         <div class="text">This was a website I helped to make in a HTML class as a part of a group project. I assisted in 
             the construction of the home page. Big bites is an official resturant whose permission we had received to use
             their iconography beforehand. The website was well regarded within the class.
         </div>
         </div>
     </div>
+    <br>
 
     <div class="container">
         <div class="image">
-            <img src="/public/img/game.png">
+            <img src="img/game.png" class="img">
         </div>
         <div class="text">This was a game I helped to make in a Python class as a part of a group project. I assisted in 
             the construction of the aesthetics and some of the coding. Like the previous exapmle this was well also regarded within
@@ -33,10 +35,11 @@
         </div>
         </div>
     </div>
+    <br>
 
     <div class="container">
         <div class="image">
-            <img src="/public/img/artour.png">
+            <img src="img/artour.png" class="img">
         </div>
         <div class="text">This was an AR tour I made as part of an extracirricular project. While ultimately it never went anywhere,
             that was due to the inability to gather proper 3D photos to use. The template itself works rather well.
